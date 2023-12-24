@@ -105,7 +105,7 @@ function Navbar(props) {
           </IconButton>
       <Box>
       <img
-          src= "public\logo.png"
+          src= "/logo.png"
            alt='logo'
             style={{ flexGrow: 1,opacity: 10,height:"50px",width:"150px",display: { xs: 'none', sm: 'block' } }}
           />
