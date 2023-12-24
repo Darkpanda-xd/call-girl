@@ -1,0 +1,33 @@
+.button-wrapper{
+    position: fixed;
+    z-index: 110;
+    bottom: 10px;
+    right: -10px;
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.button-wrapper>Button{
+    border-radius: 10px;
+    /* width: 226px; */
+    align-items: center;
+    justify-content: center;
+    background: #28b726;
+    position: relative;
+    height: 60px;
+    padding: 20px;
+}
+.button-wrapper>Button:hover{
+    background: white;
+}
+.button-wrapper>Button>a{
+    color: red;
+}
+/* .icon{
+    position: absolute;
+    left: 45px;
+    top: 10px;
+} */

@@ -1,0 +1,45 @@
+.gallery-wrapper{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    align-items: center;
+    justify-content: center;
+
+}
+.gallery-call-girl{
+    height: 380px;
+    width: 277px;
+    /* box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; */
+    border-radius: 3px;
+    border: 2px outset rgb(231 199 29);
+
+}
+#gallery{
+    padding: 20px 150px;
+    background: rgba(88, 54, 65, 0.7);
+}
+.gallery-header{
+    text-align: center;
+    padding-bottom: 30px;
+    color: rgb(231 199 29);
+    
+}
+.gallery-header h1{
+    border-bottom: solid 1px rgb(231 199 29);
+    display: inline-block;
+}
+/* .gallery-line{
+position: absolute;
+z-index: 100;
+content: "";
+height: 1px;
+width: 184px;
+background: #e7c71d;
+left: 517px;
+bottom: 53px;
+} */
+
+
+
+

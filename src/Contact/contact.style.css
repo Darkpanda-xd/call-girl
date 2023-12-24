@@ -1,0 +1,72 @@
+.contact-form {
+	padding: 80px 150px 80px 150px;
+	display: flex;
+	justify-content: space-between;
+    background: rgba(88, 54, 65, 0.7);
+}
+.c-right {
+	display: flex;
+	
+	
+}
+.c-right > form {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	align-items: center;
+}
+.c-right .user {
+    width: 35rem;
+    height: 3rem;
+    padding: 0.3rem;
+    outline: none;
+    border: solid 2px #e7c71d;
+    border-radius: 8px;
+}
+textarea {
+	height: 8rem !important;
+}
+
+.valid {
+	position: relative;
+	top: -94%;
+	width: 20rem;
+	height: 2rem;
+	padding: 0.3em;
+	border-radius: 8px;
+	text-align: center;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	/* background: ; */
+	color: #fff;
+	font-size: 20px;
+}
+.w-left{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    font-size: 45px;
+    padding-top: 90px;
+    padding-left: 163px;
+    color: #e7c71d;
+    font-weight: 900;
+}
+.btn{
+    width: 35rem;
+    height: 3rem;
+    border-radius: 8px;
+    border: solid 1px #e7c71d;
+    cursor: pointer;
+    background: transparent;
+    font-size: 18px;
+    color: #a41313b0;
+}
+.btn:hover{
+    background: #a41313b0;
+    color: #fff;
+    width: 35rem;
+    height: 3.2rem;
+}
+
