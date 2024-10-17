@@ -63,6 +63,8 @@ const Guwahati = () => {
           property="og:description" 
           content="Book the best call girl in Guwahati and enjoy unmatched luxury with Mahi Oboroi's Guwahati escort service." 
         />
+        <link rel="canonical" href="https://www.mahioboroi.com/guwahati" />
+
         <meta property="og:url" content="https://www.mahioboroi.com/guwahati" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="https://mahiobori.s3.us-east-1.amazonaws.com/logo.png" />
