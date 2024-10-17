@@ -2,7 +2,8 @@
 	padding: 80px 150px 80px 150px;
 	display: flex;
 	justify-content: space-between;
-    background: rgba(88, 54, 65, 0.7);
+    background:var(--contact-bg, rgba(88, 54, 65, 0.7)) ;
+    
 }
 .c-right {
 	display: flex;

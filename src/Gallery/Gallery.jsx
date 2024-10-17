@@ -3,19 +3,19 @@ import "./gallery.css"
 const Gallery = () => {
     const image = [{
       src:"/call-girl-21.jpg",
-      alt:"call-girl",
+      alt:"guwahati-call-girl",
       key:1
     },{
       src:"/call-girl-3.jpg",
-      alt:"call-girl",
+      alt:"guwahati-call-girl",
       key:2
     },{
       src:"/call-girl-7.jpg",
-      alt:"call-girl",
+      alt:"call-girl-in-guwahati",
       key:4
     },{
       src:"/call-girl-8.jpg",
-      alt:"call-girl",
+      alt:"Escort-in-guwahati",
       key:5
     },{
       src:"/call-girl-10.jpg",
@@ -23,15 +23,15 @@ const Gallery = () => {
       key:6
     },{
       src:"/call-girl-11.jpg",
-      alt:"call-girl",
+      alt:"call-girl-escort",
       key:7
     },{
       src:"/call-girl-12.jpg",
-      alt:"call-girl",
+      alt:"Guwahati-escort-service",
       key:8
     },{
       src:"/call-girl-13.jpg",
-      alt:"call-girl",
+      alt:"Escort-service-in-guwahati",
       key:9
     },{
       src:"/call-girl-14.jpg",

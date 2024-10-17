@@ -8,12 +8,12 @@ const FixButton = () => {
   return (
     <div className='button-wrapper'>
       <Button variant="contained">
-        <a href="tel:+916291029174">
+        <a href="tel:+917980376638">
             <CallIcon className='icon'/> 
         </a>
         </Button>
         <Button variant="contained">
-        <a href="https://wa.me/+916291029174">
+        <a href="https://wa.me/+917980376638">
         <WhatsAppIcon className='icon'/> 
         </a>
         </Button>

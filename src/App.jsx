@@ -8,18 +8,19 @@ import FixButton from './components/fixedButton/Button'
 import Banner from './banner/Banner'
 import Contact from './Contact/Contact'
 import About from './About/About'
+import Guwahati from './Pages/Guwahati'
 
 
 const App = () => {
   return (
     <div className='App'>
-      <Navbar/>
       <Home/>
-      <About/>
+      {/* <Guwahati/> */}
+      {/* <About/>
       <Banner/>
       <Gallery/>
       <FixButton/>
-      <Contact/>
+      <Contact/> */}
     </div>
   )
 }

@@ -18,6 +18,7 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import  {Link}  from 'react-scroll';
 import "./navbar.style.css"
+import { Link as RouterLink } from 'react-router-dom';
 
 const drawerWidth = 240;
 
@@ -33,7 +34,7 @@ function Navbar(props) {
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }} med>
       <Typography variant="h6" sx={{ my: 2 }}>
-        MUI
+        Menu
       </Typography>
       <Divider />
       <List>
@@ -78,6 +79,13 @@ function Navbar(props) {
                 Contact
                 </Button>
         </Link>
+            </ListItemButton>
+          </ListItem>
+          <ListItem key='contact' disablePadding>
+            <ListItemButton sx={{ textAlign: 'center' }}>
+            <RouterLink to="/guwahati" style={{ textDecoration: 'none' }}>
+              <Button sx={{ color: 'rgb(231, 199, 29)' }}>Guwahati</Button>
+            </RouterLink>
             </ListItemButton>
           </ListItem>
       </List>
@@ -137,7 +145,9 @@ function Navbar(props) {
                 Contact
                 </Button>
         </Link>
-        
+        <RouterLink to="/guwahati" style={{ textDecoration: 'none' }}>
+              <Button sx={{ color: 'rgb(231, 199, 29)' }}>Guwahati</Button>
+            </RouterLink>
           </Box>
         </Toolbar>
       </AppBar>
