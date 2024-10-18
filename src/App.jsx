@@ -1,16 +1,18 @@
-import { Home } from '@mui/icons-material';
+// import { Home } from '@mui/icons-material';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import Guwahati from './Pages/Guwahati';
+import Home from './Home/Home';
+import "./app.css"
 // import Home from './pages/Home';
 // import Guwahati from './pages/Guwahati';
 
 function App() {
   return (
     <Router>
-      <nav>
+      {/* <nav>
         <Link to="/">Home</Link>
         <Link to="/guwahati">Guwahati</Link>
-      </nav>
+      </nav> */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/guwahati" element={<Guwahati />} />
