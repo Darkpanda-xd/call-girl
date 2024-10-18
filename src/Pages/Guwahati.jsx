@@ -111,7 +111,7 @@ const Guwahati = () => {
     
         <h2>Why Choose Mahi Oboroi for Guwahati Escort Service?</h2>
         <div>
-    <img src="./call-girl-13.jpg" alt="guwahati-call-girl" />
+    <img src="/call-girl-13.jpg" alt="guwahati-call-girl" />
         <div className='content-sub-wrapper-1'>
         <p>
           Mahi Oboroi offers the highest standard of <strong>Guwahati escort service</strong>, blending sophistication
