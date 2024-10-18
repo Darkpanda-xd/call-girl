@@ -1,28 +1,22 @@
-import React from 'react'
-import './app.css'
-import Navbar from './Navbar/Navbar'
-import Home from './Home/Home'
+import { Home } from '@mui/icons-material';
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import Guwahati from './Pages/Guwahati';
+// import Home from './pages/Home';
+// import Guwahati from './pages/Guwahati';
 
-import Gallery from './Gallery/Gallery'
-import FixButton from './components/fixedButton/Button'
-import Banner from './banner/Banner'
-import Contact from './Contact/Contact'
-import About from './About/About'
-import Guwahati from './Pages/Guwahati'
-
-
-const App = () => {
+function App() {
   return (
-    <div className='App'>
-      <Home/>
-      {/* <Guwahati/> */}
-      {/* <About/>
-      <Banner/>
-      <Gallery/>
-      <FixButton/>
-      <Contact/> */}
-    </div>
-  )
+    <Router>
+      <nav>
+        <Link to="/">Home</Link>
+        <Link to="/guwahati">Guwahati</Link>
+      </nav>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/guwahati" element={<Guwahati />} />
+      </Routes>
+    </Router>
+  );
 }
 
-export default App
+export default App;
